@@ -1,0 +1,27 @@
+{
+  "name": "flowgrid3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "flow & parcel ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.1"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hyperscript": "^3.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-observable": "^1.0.0",
+    "redux-undo": "^0.6.1",
+    "rxjs": "^6.3.3",
+    "store": "^2.0.12"
+  }
+}
